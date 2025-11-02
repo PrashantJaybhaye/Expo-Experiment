@@ -13,7 +13,7 @@ const Welcome = () => {
     const router = useRouter();
 
     return (
-        <ScreenWrapper showPattern={true}>
+        <ScreenWrapper showPattern={true} bgOpacity={0.5}>
             <View style={styles.container}>
                 <View style={{ alignItems: "center" }}>
                     <Typo
